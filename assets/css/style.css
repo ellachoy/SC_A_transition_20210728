@@ -1,0 +1,26 @@
+header {
+  margin-bottom: 10%;
+}
+
+div {
+  width: 150px;
+  height: 100px;
+  background-color: lightgoldenrodyellow;
+  transition: all 1s 1s;
+  font-family: Monaco;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5%;
+}
+
+div:nth-of-type(1):hover {
+  background-color: gold;
+  color: red;
+  font-size: 25px;
+  width: 1000px;
+  transition-timing-function: linear;
+}
+h5 {
+  font-size: 20px;
+}

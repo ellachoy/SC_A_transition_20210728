@@ -1,0 +1,21 @@
+body {
+  border-top: 5px solid gray;
+  border-left: 5px solid gray;
+  width: 80%;
+  height: 100%;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  margin-top: 5px;
+  margin-left: 5px;
+  transition-property: width;
+  transition-duration: 1s;
+  transition-delay: 0.3s;
+}
+div:hover {
+  width: 1000px;
+  background-color: tomato;
+  transition-timing-function: linear;
+}
